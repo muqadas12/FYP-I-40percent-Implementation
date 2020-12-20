@@ -1,0 +1,46 @@
+.h-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Hearing-date{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 50px;
+
+
+}
+.case-status{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.h-d{
+    width: 10%;
+    text-align: left;
+    margin-left:140px;
+    margin-top: -28px;
+border: 1px solid rgb(12, 12, 12);
+  
+    
+}
+.update-case-info{
+    margin-top: -40px;
+    background-color:blueviolet;
+  border: none;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 600px;
+}
+@media screen and (max-width: 600px) {
+    .update-case-info{
+        width: 35%;
+        margin-left: 40px;
+
+
+    }
+}

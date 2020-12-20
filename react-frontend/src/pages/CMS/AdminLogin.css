@@ -1,0 +1,41 @@
+.form-control{
+    width: 70px;
+}
+.res-image{
+    width: 100%;
+    height: 40%;
+    margin-top: -20px;
+}
+i {
+  position: absolute;
+  /* top: 38%;
+  right: 16%; */
+}
+i:hover {
+  color: #00fcb6;
+  cursor: pointer;
+}
+
+/* PasswordMask{
+margin-top: 70px;
+} */
+.authentication__header {
+    color: white;
+    text-align: center;
+  }
+  
+  .authentication {
+    width: 90%;
+    
+    max-width: 25rem;
+    margin: 7rem auto;
+    text-align: center;
+  }
+  
+  .authentication form {
+    margin-bottom: 1rem;
+  }
+  
+
+
+  

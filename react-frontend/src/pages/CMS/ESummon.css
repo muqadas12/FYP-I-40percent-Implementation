@@ -1,0 +1,31 @@
+.summon-top{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.case-status{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.rd-1{
+    margin-left: 40px;
+}
+.rd-2{
+    margin-left: 40px;
+}
+.btnn-summon{
+    margin-top: 40px;
+    background-color: rgb(92, 41, 41);
+  border: none;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 30px;
+}

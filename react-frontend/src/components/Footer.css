@@ -1,0 +1,25 @@
+/* .footer {
+    padding:20px;
+    margin:10px;
+    flex-shrink: 0;
+    text-align: center;
+    background-color:black;
+    color: white;
+  } */
+  /* .main-footer{
+    color:white;
+    background-color:rgb(59, 55, 55);
+    padding-top: 3rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+  } */
+  .footer{
+    width: 99vw;
+    height: 5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 240px;
+  }
