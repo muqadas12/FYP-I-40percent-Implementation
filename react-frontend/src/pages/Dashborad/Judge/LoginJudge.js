@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FormErrors } from "../../../components/FormErrors"
-import CoveringCard from "../../../shared/UIElements/CoveringCard"
+import CoveringCard from "../../../shared/UIElements/CoverCard"
 import loginJudge from "../../../assets/Images/final.PNG"
 import {Link} from "react-router-dom"
 import PasswordMask from 'react-password-mask';

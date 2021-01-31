@@ -37,19 +37,32 @@ import DoughnutChart from "./pages/MainPage/Charts/DoughnutChart"
 import JudgeSignUp from "./pages/Dashborad/Judge/JudgeSignUp";
 import LawyerSignUp from  "./pages/Dashborad/Lawyer/LawyerSignUp";
 import LoginLawyer from  "./pages/Dashborad/Lawyer/LoginLawyer";
+import OnlinePay from  "./pages/Dashborad/Lawyer/OnlinePay";
+
 import LawyerMod from  "./pages/Dashborad/Lawyer/LawyerMod";
 
 import LoginJudge from  "./pages/Dashborad/Judge/LoginJudge";
 import JudgeMod  from  "./pages/Dashborad/Judge/JudgeMod";
 import CaseRecord  from  "./pages/Dashborad/Judge/RecordCase";
 import ESummon  from  "./pages/Dashborad/Judge/ESummonStatus";
+import ArrestWarrant  from  "./pages/Dashborad/Judge/ArrestWarrant";
+
+import GenerateSummon  from  "./pages/CMS/GenerateSummon";
+import PoliceCon  from  "./pages/CMS/PoliceCon";
+
 import ViewEFilling  from  "./pages/Dashborad/Judge/ViewEFilling";
 import Causelist  from  "./pages/Dashborad/Lawyer/Causelist";
 import Judgment from  "./pages/Dashborad/Lawyer/Judgment";
 import CourtFee from  "./pages/Dashborad/Lawyer/CourtFee";
 import CaseStatusLaw from  "./pages/Dashborad/Lawyer/CaseStatusLaw";
 
+import DChart from "./pages/MainPage/DChart"
+import Home from "./pages/Dashborad/Judge/Video/Home"
+import Header from "./pages/Dashborad/Judge/Video/Header"
 
+import VideoCall from "./pages/Dashborad/Judge/VideoCall"
+import PayOnline from "./pages/Dashborad/Lawyer/PayOnline"
+import Practice from "./Practice"
 
 
 
@@ -90,6 +103,8 @@ const  App=()=> {
     <Route path="/CMS/CauseListCMS" component={CauseListCMS} exact ></Route>
     <Route path="/CMS/ESummonCMS" component={ESummonCMS} exact></Route>
     <Route path="/CMS/Modules" component={Modules} exact></Route>
+    <Route path="/CMS/PoliceCon" component={PoliceCon} exact></Route>
+
     <Route path="/AdminLogin" component={AdminLogin } ></Route>
 
     <Route path="/LoginCMS" component={LoginCMS} ></Route>
@@ -115,6 +130,7 @@ const  App=()=> {
     <Route path="/JudgeMod" component={JudgeMod} ></Route>
     <Route path="/CaseRecord" component={CaseRecord} ></Route>
     <Route path="/ESummon" component={ESummon} ></Route>
+    <Route path="/ArrestWarrant" component={ArrestWarrant} ></Route>
     <Route path="/ViewEFilling" component={ViewEFilling} ></Route>
     <Route path="/CaseProceeding" component={CaseProceeding} ></Route>
     <Route path="/LawyerMod" component={LawyerMod} ></Route>
@@ -122,6 +138,18 @@ const  App=()=> {
     <Route path="/Judgment" component={Judgment} ></Route>
     <Route path="/CourtFee" component={CourtFee} ></Route>
     <Route path="/CaseStatusLaw" component={CaseStatusLaw} ></Route>
+    <Route path="/DChart" component={DChart} ></Route>
+    <Route path="/OnlinePay" component={OnlinePay} ></Route>
+    <Route path="/GenerateSummon" component={GenerateSummon}></Route>
+    {/* //video/ */}
+
+    <Route path="/Home" component={Home}></Route>
+    <Route path="/Header" component={Header}></Route>
+    <Route path="/VideoCall" component={VideoCall}></Route>
+    <Route path="/PayOnline" component={PayOnline}></Route>
+
+    <Route path="/Practice" component={Practice}></Route>
+
 
 
 

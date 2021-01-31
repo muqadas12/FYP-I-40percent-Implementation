@@ -7,22 +7,14 @@ const Dummy_Efilling_form = [
   {
     LawyerName: "zain",
     PartyName: "momina",
-    file: "https://.pdf"
-    // image:''
-    // uploadPlaint:""
+   
+    
   }
 ]
 
-// const getInfo=(req,res,next)=>{
-//     res.json(Dummy_Efilling_form);
-// }
+
 const createPlace = async (req, res, next) => {
-  // const errors = validationResult(req);
-  // if (!errors.isEmpty()) {
-  //   return next(
-  //     new HttpError('Invalid inputs passed, please check your data.', 422)
-  //   );
-  // }
+  
 
   const { LawyerName, PartyName } = req.body;
 

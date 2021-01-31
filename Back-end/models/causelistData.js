@@ -5,6 +5,14 @@ const causelistSchema=new mongoose.Schema({
         type:Number,
         required:true
     },
+    caseNumber:{
+        type:String,
+        required:true
+    },
+    caseYear:{
+        type:String,
+        required:true
+    },
     partyName:{
         type:String,
         required:true
@@ -13,7 +21,7 @@ const causelistSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    fixationTime:{
+    FixationTime:{
         type:String,
         required:true
     }

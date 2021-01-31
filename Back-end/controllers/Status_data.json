@@ -36,7 +36,20 @@
         "Matter": "SERVICE",
         "LastHearing": "19-Oct-18",
         "NextDate": "14-Jan-21",
-        "caseStatus":"Solved",
+        "caseStatus":"Pending",
+        "lawyer": "Advocate General, KPK \nMr. Amjad Ali"
+    },
+    {
+        
+       
+        "caseName": "Const. P.",
+        "Caseno": "839",
+        "Caseyear": "2014",
+        "CASETITLE": "Kiusar Parveen V/S Province of Sindh and Ors",
+        "Matter": "SERVICE",
+        "LastHearing": "19-Oct-18",
+        "NextDate": "14-Jan-21",
+        "caseStatus":"Pending",
         "lawyer": "Advocate General, KPK \nMr. Amjad Ali"
     },
     {

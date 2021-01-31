@@ -1,0 +1,102 @@
+.btn-1{
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 12px;
+    width:220px;
+    height: 50px;
+    background-color: rgb(235, 112, 103);
+    border-color: rgb(235, 112, 103);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  
+  
+  
+  }
+  
+  .btn-2{
+    margin-left: 180px;
+    margin-top: 50px;
+    border-radius: 12px;
+    width:220px;
+    height: 50px;
+    background-color: rgb(221, 21, 138);
+    border-color:rgb(221, 21, 138);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .btn-3{
+    margin-left: 22%;
+    margin-top: 70px;
+    border-radius: 12px;
+    width:220px;
+    height: 50px;
+    background-color:rgb(187, 218, 77);
+    border-color:rgb(187, 218, 77);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .btn-4{
+    margin-left: 180px;
+    margin-top: 10px;
+    border-radius: 12px;
+    width:220px;
+    height: 50px;
+    background-color: rgb(99, 132, 240);
+    border-color:  rgb(99, 132, 240);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   
+  
+  }
+  
+  .material-icons{
+    margin-bottom: -30px;
+  }
+  @media screen and (max-width: 600px) {
+    .btn-1 {
+      
+      width: 45%;
+      
+      font-size: 10px;
+      font-weight: bold;
+      margin-left: 40px;
+      margin-top:30px;
+  
+      /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .btn-2 {
+      
+      width: 45%;
+      
+      font-size: 10px;
+      font-weight: bold;
+      margin-left: 40px;
+      margin-top:30px;
+  
+      /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .btn-3 {
+      
+      width: 45%;
+      
+      font-size: 10px;
+      font-weight: bold;
+      margin-left: 40px;
+      margin-top:30px;
+  
+      /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .btn-4 {
+      
+      width: 45%;
+      
+      font-size: 10px;
+      font-weight: bold;
+      margin-left: 40px;
+      margin-top:30px;
+  
+      /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

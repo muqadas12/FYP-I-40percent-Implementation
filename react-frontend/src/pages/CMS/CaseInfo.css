@@ -1,46 +1,95 @@
-.h-1{
+
+.case-no-caseinfo{
+    margin-left: -80%;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-left: 10px;
 }
-.Hearing-date{
+.caseyear-caseinfo{
+    margin-left: 40px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 50px;
-
-
+    margin-top: -80px;
 }
-.case-status{
+
+.caseno-cms{
+    width: 20%;
+    height:40px;
+    margin-left: -75%;
+    margin-top: 15px;
+}
+.caseyear-cms{
+    width: 20%;
+    height:40px;
+    margin-left: 5%;
+    margin-top: 13px;
+}
+.cms-update-asd{
+    margin-top: 70px;
+    margin-right: -20%;
+    margin-left: 25%;
+    width:10%;
     font-family: 'Times New Roman', Times, serif;
-
-}
-.h-d{
-    width: 10%;
-    text-align: left;
-    margin-left:140px;
-    margin-top: -28px;
-border: 1px solid rgb(12, 12, 12);
-  
+    height: 40px;
+    background-color: rgb(120, 151, 219);
+    color:white;
+    font-weight: bold;
+    border-color:  rgb(120, 151, 219);
     
 }
-.update-case-info{
-    margin-top: -40px;
-    background-color:blueviolet;
-  border: none;
-  color: white;
-  padding: 9px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 600px;
+.case-year-info{
+    margin-left: -60px;
 }
-@media screen and (max-width: 600px) {
-    .update-case-info{
-        width: 35%;
-        margin-left: 40px;
-
-
-    }
+.party-caseinfo{
+    margin-left: -160px;
 }
+.lasthearing-caseinfo{
+    margin-left: -50px;
+}
+.nexthearing-caseinfo{
+    margin-left: -40px;
+}
+.casestatus-caseinfo{
+    margin-right: -70px;
+}
+
+.caseinfo-image{
+    position: relative;
+    max-width: 100%;
+    margin-left: 25%;
+  }
+  .caseinfo-image__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .update-case-info-cms{
+    background-color: rgb(120, 151, 219);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width:10%;
+    height: 40px;
+    border: rgb(120, 151, 219);
+    margin-left: 20px;
+    margin-top: 40px;
+
+  }
+  .colll-code{
+    font-weight: bold;
+    margin-left: 115px; 
+  }
+  .benchhhhh{
+    font-weight: bold;
+    margin-left: 120px; 
+  }
+
+  .co-case-yearrrrr{
+    font-weight: bold;
+    margin-left: 350px; 
+  }

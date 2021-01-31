@@ -1,0 +1,45 @@
+.text{
+    font-weight: bold;
+}
+.case-number{
+    margin-left: -70px;
+    font-weight: bold;
+}
+.co-case-num{
+    margin-left: 45px;
+    font-weight: bold;
+}
+.co-case-year{
+    margin-left: 90px;
+    font-weight: bold;
+
+}
+.bench{
+    margin-left: 90px;
+    font-weight: bold;
+}
+.col-code{
+    margin-left: 89px;
+    font-weight: bold;
+
+}
+.col-title{
+    margin-left: 10%;
+    font-weight: bold;
+
+}
+
+.l-h{
+    margin-left: 13%;
+    font-weight: bold;
+}
+.n-d{
+    margin-left: 40px;
+    font-weight: bold;
+}
+/* 
+
+}
+
+
+} */

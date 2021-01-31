@@ -1,9 +1,9 @@
 const { FilePondFile } = require("filepond");
 const mongoose=require("mongoose")
 
-const causelistSchema=new mongoose.Schema({
+const judgmentSchema=new mongoose.Schema({
     judgmentDate:{
-        type:Date,
+        type:String,
         required:true
     },
     caseSubject:{
@@ -22,16 +22,12 @@ const causelistSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    Tag:{
+    download:{
         type:String,
         required:true
-
     },
-    download:{
-        type:download
-       
-    }
+    
 })
-const Causelist=mongoose.model("Causelist",causelistSchema)
+const Judgment=mongoose.model("judgment",judgmentSchema)
 
-module.exports=Causelist;
+module.exports=Judgment;

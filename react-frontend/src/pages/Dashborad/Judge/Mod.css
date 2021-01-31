@@ -50,7 +50,52 @@
    
   
   }
+
+  .case-judge-records{
+    margin-left: 30%;
+  }
+
+  .case-record-judge-dashboard{
+    
+    margin-left: 31%;
+    color:black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
   
+.efile-judge-records{
+  margin-left: 50%;
+  margin-top: -210px;
+}
+.efile-judge-dashboard{
+  margin-left: 50%;
+  margin-top: -60px;
+  color:black;
+  font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.summon-judge-records{
+  margin-left: 30%;
+  margin-top: 40px;
+}
+.esumon-judge-dashboard{
+  margin-left: 30%;
+  color:black;
+  font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.proceed-judge-records{
+  margin-left: 50%;
+  margin-top: -210px;
+}
+.proceed-judge-dashboard{
+  margin-left: 50%;
+  margin-top: -60px;
+  color:black;
+  font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
   .material-icons{
     margin-bottom: -30px;
   }

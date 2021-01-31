@@ -1,0 +1,23 @@
+.graph-enter-year{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input[type="teexxt"]{
+   margin-left: 10px;
+    
+}
+.graph-search-button{
+    background-color: lightcoral;
+    border-color:lightcoral;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* width:90px;
+    height:40px; */
+}
+.graph-top-heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:palevioletred
+}

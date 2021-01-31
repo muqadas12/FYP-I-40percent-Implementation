@@ -10,9 +10,13 @@ const fileUpload = require("../middleware/file-upload");
 const dataController=require("../controllers/causlistData");
 const judgmentData=require("../controllers/judgmentData");
 const casesData=require("../controllers/casesData")
+const Feestatus=require("../controllers/feeData")
+const Fees=require("../controllers/Fees")
 const statusData=require("../controllers/status")
 const router = express.Router();
 const storage = multer.memoryStorage();
+
+
 const upload = multer({
   storage,
 });
@@ -22,10 +26,29 @@ router.post(
   upload.array('images'),
   efilingController.createPlace,
 );
+router.get("/data/yearchart", Feestatus.getYearChartData);
+router.get("/data/fees",Fees.getFee)
+//posting and adding judgment data/////
 router.get("/data/judgment",judgmentData.getJudgment);
-router.get("/data/list",dataController.getList );
+ router.patch("/data/judgment",judgmentData.addjudgmentData);
+
+
+
+
+ //Causelist/////
+// router.get("/data/list",dataController.getList);
+router.get("/data/list",dataController.getList)
+router.patch("/data/listadd",dataController.addCauseList)
+
+
+
+//online casesearch//
 router.get("/data/cases",casesData.getCase);
-router.get("/data/status",statusData.getStatus);
+ router.patch("/data",casesData.addData)
+
+
+ router.get("/data/status",statusData.getStatus);
+
 
 
 router.post("/Efile", upload.single('file')
@@ -43,6 +66,8 @@ router.post("/Efile", upload.single('file')
   ],
 )
 
+  
+  
 module.exports = router;
 
 

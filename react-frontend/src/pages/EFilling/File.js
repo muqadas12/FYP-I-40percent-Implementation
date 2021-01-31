@@ -20,8 +20,7 @@ function File() {
     filesArray.map((file) => formdata.append("images", file));
     formdata.append("LawyerName", LawyerName);
     formdata.append("PartyName", PartyName);
-
-
+    // window.location = "http://localhost:3000/ViewEFilling"+formdata;
     axios.post("http://localhost:2000/api/lawyer/", formdata
     ).then(res => {
       console.log(res.data.place);
@@ -33,6 +32,13 @@ function File() {
   return (
     <div>
       <img className="responsive-image" src={court} />
+
+      <br/>
+      <br/>
+
+      <h5 className="top-lawyer">Please fill the following fields to file online Case</h5>
+
+      <hr className="new"/>
       <form action="#" method="post" enctype="multipart/formdata" >
         <label className="l-n" htmlFor="lawyername">Lawyer Name:</label>
         <input
@@ -77,6 +83,7 @@ function File() {
       
       
       >Submit</button>
+
     </div>
 
   )
